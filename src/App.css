@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background: #ddd;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.book-story{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.book-item{
+  overflow: hidden;
+  border-radius: 5px;
+  padding-bottom: 1.5rem;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.book-item:hover{
+  box-shadow: none;
+  border: 1px solid #ccc;
+}
+.book-item img{
+  margin-bottom: 1rem;
+}
+.book-item p{
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  margin: 4px 0;
+}
